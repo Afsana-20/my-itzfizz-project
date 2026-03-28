@@ -107,7 +107,8 @@ project2/
 
 ## 📸 Preview
 
-> _(Add a screenshot or screen recording of your project here)_ 
+<img width="1919" height="871" alt="Screenshot 2026-03-28 121254" src="https://github.com/user-attachments/assets/50188ee3-1c85-4ed6-8309-89f373394ea0" />
+
 Built as part of a frontend animation assignment.
 
 ---
