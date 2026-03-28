@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌀 ITZFIZZ — Scroll-Driven Hero Section Animation
 
-## Getting Started
+> A premium scroll-based hero section animation built with Next.js, GSAP, and Tailwind CSS.
 
-First, run the development server:
+---
+
+## 📌 Assignment Overview
+
+**Assignment:** Scroll-Driven Hero Section Animation  
+**Objective:** Recreate a scroll-responsive hero section inspired by a reference demo, focusing on motion quality, smoothness, and interaction logic using modern frontend technologies.
+
+**Reference:** [paraschaturvedi.github.io/car-scroll-animation](https://paraschaturvedi.github.io/car-scroll-animation)
+
+---
+
+## 🔗 Live Demo & Repository
+
+| | Link |
+|---|---|
+| 🌐 **Live Site** | _your-vercel-link-here_ |
+| 💻 **GitHub Repo** | _your-github-repo-link-here_ |
+
+---
+
+## ✨ Features
+
+### 🖼️ Hero Section Layout
+- Full-screen hero section (above the fold)
+- Letter-spaced headline: **W E L C O M E I T Z F I Z Z**
+- Impact metrics / statistics displayed below the headline (percentages with descriptions)
+
+### 🎬 Initial Load Animation
+- Headline fades in with a smooth staggered reveal on page load
+- Statistics animate in one by one with subtle delays
+- Smooth and premium feel — no abrupt transitions
+
+### 🖱️ Scroll-Based Animation (Core Feature)
+- Hero section responds dynamically to page scroll
+- Main visual element moves smoothly based on scroll position
+- Animation tied to **scroll progress** (not time-based autoplay)
+- Natural, fluid easing via interpolation
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| **Next.js / React.js** | Framework & component structure |
+| **Tailwind CSS** | Utility-first styling |
+| **GSAP** | Smooth scroll & intro animations |
+| **HTML / CSS / JavaScript** | Core web technologies |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/project2.git
+
+# Navigate into the project
+cd project2
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+project2/
+├── app/              # Next.js app directory
+│   ├── page.tsx      # Main page component
+│   └── layout.tsx    # Root layout
+├── public/           # Static assets (images, icons)
+├── .gitignore
+├── next.config.ts
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚡ Performance Guidelines Followed
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Used `transform` properties (`translate`, `scale`, `rotate`) for all animations
+- Avoided layout reflows on scroll events
+- GSAP ScrollTrigger used for performant scroll-linked motion
+- Smooth easing/interpolation for natural fluid movement
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📸 Preview
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> _(Add a screenshot or screen recording of your project here)_ 
+Built as part of a frontend animation assignment.
+
+---
