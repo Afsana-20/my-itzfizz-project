@@ -9,7 +9,6 @@
 **Assignment:** Scroll-Driven Hero Section Animation  
 **Objective:** Recreate a scroll-responsive hero section inspired by a reference demo, focusing on motion quality, smoothness, and interaction logic using modern frontend technologies.
 
-**Reference:** [paraschaturvedi.github.io/car-scroll-animation](https://paraschaturvedi.github.io/car-scroll-animation)
 
 ---
 
@@ -17,7 +16,7 @@
 
 | | Link |
 |---|---|
-| 🌐 **Live Site** | _your-vercel-link-here_ |
+| 🌐 **Live Site** https://my-itzfizz-project-rr5g.vercel.app/
 | 💻 **GitHub Repo** | _your-github-repo-link-here_ |
 
 ---
